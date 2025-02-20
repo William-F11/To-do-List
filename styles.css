@@ -1,0 +1,154 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(40, 43, 43);
+    text-align:center;
+    color: whitesmoke;
+}
+
+.title {
+    width: 700px; 
+    height: 40px; /* Set specific height */
+    background-color: rgb(133, 180, 192); 
+    text-align: left; 
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+    border: 4px solid black;
+    top: 20px; /* Add margin from top */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    position: fixed;
+    z-index: 1000;
+
+    display: flex;
+    align-items:center;
+    
+    padding: 10px 20px; 
+}
+
+.titleText {
+    color: black;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+.instructions {
+    border: 4px solid black;
+    border-radius: 25px;
+    background-color: rgb(133, 180, 192);
+    color:black;
+
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#listText {
+    list-style: none;
+    padding: 0;
+}
+
+#listText li {
+    border: 4px solid black;
+    background-color: hsl(192, 32%, 64%);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#listText li button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+#listText li button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.add {
+    display:flex;
+    border:4px solid black;
+    background-color:rgb(133, 180, 192);
+    border-radius: 25px;
+    padding: 15px;
+    justify-content:center;
+    align-items:center;
+    
+    font-size: 40px;
+    font-weight: bold;
+
+    height: 50px;
+    width:51px;
+}
+
+#todoBox {
+    background-color:rgb(133, 180, 192);
+    border: 4px solid black;
+    border-radius: 25px;
+    padding:15px;
+    margin-right:8px;
+
+    width: 575px;
+    line-height: center;
+}
+
+#todoBox::placeholder {
+    color:black;
+    font-size: 17px;
+}
+
+.add-todo {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 10px;
+    font-size: 200px;
+    
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 50px;
+    position: fixed;
+}
